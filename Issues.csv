@@ -1,0 +1,404 @@
+﻿"Issue Id","Project","Tags","Summary","Reporter","Created","Updated","Resolved","Priority","Type","State","Assignee","Sprints","Ideal days","Original estimation","Story points","Environment","QASE TC # (only for bug)","Description","Votes"
+"G12-195","group1.2","Star","TO-DO: Crashed after refresh","alex.kalita1991","11 Nov 2022","11 Nov 2022",,"Critical","Bug","Open","Unassigned","Нет версии исправления",,,,"Huawei P30, Android v.12.0.0.134","No qase tc # (only for bug)","STR:
+
+1)Tap kebab menu
+
+2)Tap Refresh
+
+Expected result:
+
+Tasks list is refreshed
+
+Actual result:
+
+App crashes","0"
+"G12-194","group1.2","Star","Edit TO-DO: changes are not saved","alex.kalita1991","11 Nov 2022","11 Nov 2022",,"Major","Bug","Open","Unassigned","Нет версии исправления",,,,"Huawei P30, Android v.12.0.0.134","No qase tc # (only for bug)","STR:
+
+1)Tap on created task
+
+2)Tap Edit button
+
+3)Input ""Task1"" in Title
+
+4)Tap ""check mark""
+
+Expected result: Changes are saved
+
+Actual result: Returns to main screen with not saved changes","0"
+"G12-196","group1.2","Star","GUI: Mistake in the writing word ""Edit""","alex.kalita1991","11 Nov 2022","11 Nov 2022",,"Minor","Bug","Open","Unassigned","Нет версии исправления",,,,"Huawei P30, Android v.12.0.0.134","No qase tc # (only for bug)","STR:
+
+1)Tap Task
+
+2)Tap Edit button
+
+Expected result: ""Edit TO-DO""
+
+Actual result: ""Edite TO-DO""","0"
+"G12-181","group1.2","Star","Mobile Testing Documentation Aleksandr Kalita","alex.kalita1991","11 Nov 2022","11 Nov 2022",,"Normal","Epic","Open","Unassigned","Нет версии исправления",,,,"No environment","No qase tc # (only for bug)",,"0"
+"G12-190","group1.2","Star","Add new TO-DO: Unable to create task with numbers in ""Enter your TO-DO here"" field""","alex.kalita1991","11 Nov 2022","11 Nov 2022",,"Major","Bug","Open","Unassigned","Нет версии исправления",,,,"Huawei P30, Android v.12.0.0.134","No qase tc # (only for bug)","STR:
+
+1)Tap create new to-do (""plus"" button)
+
+2) Input ""Task"" in Title field
+
+3)Input 222 in ""Enter your TO-DO here"" field
+
+Expected result: Task is created with 222 in ""Enter your TO-DO here""
+
+Actual result: Task is not created","0"
+"G12-193","group1.2","Star","Add new TO-DO: Able to create tasks with same title","alex.kalita1991","11 Nov 2022","11 Nov 2022",,"Critical","Bug","Open","Unassigned","Нет версии исправления",,,,"Huawei P30, Android v.12.0.0.134","No qase tc # (only for bug)","STR:
+
+1)Tap create new to-do (""plus"" button)
+
+2)Create task with ""qwerty"" title
+
+3)Create one more task with ""qwerty"" title
+
+Expected result: ""Task with this title already exists"" error message
+
+Actual result: Tasks with same title are created","0"
+"G12-192","group1.2","Star","Add new TO-DO: Unable to go back from task creation screen","alex.kalita1991","11 Nov 2022","11 Nov 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,,,"Huawei P30, Android v.12.0.0.134","No qase tc # (only for bug)","STR:
+
+1)Tap create new to-do (""plus"" button)
+
+2) Tap ""Back"" button
+
+Expected result: ""Back"" button redirects to previous screen
+
+Actual result: Nothing happens","0"
+"G12-191","group1.2","Star","Add new TO-DO: Unable to create task with special characters in ""Enter your TO-DO here"" field","alex.kalita1991","11 Nov 2022","11 Nov 2022",,"Major","Bug","Open","Unassigned","Нет версии исправления",,,,"Huawei P30, Android v.12.0.0.134","No qase tc # (only for bug)","STR:
+
+1)Tap create new to-do (""plus"" button)
+
+2)Input ""Task"" in Title field
+
+3)Input !!! in ""Enter your TO-DO here"" field
+
+Expected result: Task is created with !!! in ""Enter your TO-DO here""
+
+Actual result: Task is not created","0"
+"G12-189","group1.2","Star","Add new TO-DO: Unable to create task with special characters in Title","alex.kalita1991","11 Nov 2022","11 Nov 2022",,"Major","Bug","Open","Unassigned","Нет версии исправления",,,,"Huawei P30, Android v.12.0.0.134","No qase tc # (only for bug)","STR:
+
+1)Tap create new to-do (""plus"" button)
+
+2)Input ??? in Title field
+
+Expected result: Task is created with title ""???""
+
+Actual result: Task is not created","0"
+"G12-188","group1.2","Star","Add new TO-DO: Unable to create task with numbers in Title","alex.kalita1991","11 Nov 2022","11 Nov 2022",,"Major","Bug","Open","Unassigned","Нет версии исправления",,,,"Huawei P30, Android v.12.0.0.134","No qase tc # (only for bug)","STR:
+
+1)Tap create new to-do (""plus"" button)
+
+2)Input 111 in Title field
+
+Expected result: Task is created with title ""111""
+
+Actual result: Task is not created","0"
+"G12-187","group1.2","Star","Kebab menu: Nothing happens after tapping ""Clear completed""","alex.kalita1991","11 Nov 2022","11 Nov 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,,,"Huawei P30, Android v.12.0.0.134","No qase tc # (only for bug)","STR:
+
+1)Create task
+
+2)Check task as completed
+
+3)Tap kebab menu
+
+4)Tap Clear completed
+
+Expected result: Completed tasks are cleared
+
+Actual result: Completed tasks are not cleared","0"
+"G12-186","group1.2","Star","Hamburger menu: Tapping ""TO-DO list"" after ""Statistics"" wipes all tasks","alex.kalita1991","11 Nov 2022","11 Nov 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,,,"Huawei P30, Android v.12.0.0.134","No qase tc # (only for bug)","STR:
+
+1)Create task
+
+2)Tap hamburger menu
+
+3)Tap Statistics
+
+4)Tap TO-DO list
+
+Expected result: Main app's screen with task is shown
+
+Actual result: Task is wiped","0"
+"G12-185","group1.2","Star","Hamburger menu: Completed tasks are not shown in Statistics","alex.kalita1991","11 Nov 2022","11 Nov 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,,,"Huawei P30, Android v.12.0.0.134","No qase tc # (only for bug)","STR:
+
+1)Check task as completed
+
+2)Tap hamburger menu
+
+2)Tap ""Statistics""
+
+Expected result: Completed tasks: 1
+
+Actual result: Completed tasks: 0","0"
+"G12-184","group1.2","Star","Hamburger menu: App is hided after swiping from left or right border of the screen","alex.kalita1991","11 Nov 2022","11 Nov 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,,,"Huawei P30, Android v.12.0.0.134","No qase tc # (only for bug)","STR:
+
+1)Tap hamburger menu
+
+2)Swipe from left or right border of the screen 
+
+Expected result: Swipe redirects to main app's screen
+
+Actual result: App is hided","0"
+"G12-183","group1.2","Star","Hamburger menu: App is hided after tapping ""Back"" button","alex.kalita1991","11 Nov 2022","11 Nov 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,,,"Huawei P30, Android v.12.0.0.134","No qase tc # (only for bug)","STR:
+
+1)Tap hamburger menu
+
+2)Tap ""Back"" button
+
+Expected result: Back button redirects to main app's screen
+
+Actual result: App is hided","0"
+"G12-182","group1.2","Star","Strawberry menu: ""Active"" shows active and completed tasks","alex.kalita1991","11 Nov 2022","11 Nov 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,,,"Huawei P30, Android v.12.0.0.134","No qase tc # (only for bug)","STR:
+
+1)Check one task as Completed
+
+2)Leave another one unchecked
+
+3)Tap on strawberry menu
+
+4)Tap on Active
+
+Expected result: Only active task will be shown
+
+Actual result: All tasks are shown
+
+
+
+
+","0"
+"G12-163","group1.2","Star","Checkout: Payment information - expired VISA","alex.kalita1991","20 Oct 2022","20 Oct 2022",,"Normal","Task","Open","Unassigned","Нет версии исправления",,,,"No environment","No qase tc # (only for bug)","STR:
+
+1) Proceed to checkout
+
+2) Click Payment information
+
+3) Enter valid cardholder name, card number and cvc
+
+4) Choose 1/2022 in expire date
+
+5) Click Continue
+
+Expected result:
+
+""Your card is expired"" error message
+
+Actual result:
+
+You proceed to the next step","0"
+"G12-162","group1.2","Star","Checkout: Payment information - VISA cardholder name numbers","alex.kalita1991","20 Oct 2022","20 Oct 2022",,"Normal","Task","Open","Unassigned","Нет версии исправления",,,,"No environment","No qase tc # (only for bug)","STR:
+
+1) Proceed to checkout
+
+2) Choose Payment information
+
+3) Enter valid cardholder name, expiration date and cvc
+
+4) Input numbers in cardholder name
+
+5) Click Continue
+
+Expected result:
+
+""Numbers are not allowed in cardholders name"" message
+
+Actual result:
+
+You proceed to the next step","0"
+"G12-153","group1.2","Star","Web App Testing Aleksandr Kalita","alex.kalita1991","20 Oct 2022","20 Oct 2022",,"Normal","Task","Open","Unassigned","Нет версии исправления",,,,"No environment","No qase tc # (only for bug)",,"0"
+"G12-161","group1.2","Star","Checkout: Payment information - VISA cardholder name Cyrilic","alex.kalita1991","20 Oct 2022","20 Oct 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,,,"No environment","No qase tc # (only for bug)","STR:
+
+1) Proceed to Checkout
+
+2) Choose Payment information
+
+3) Input valid card number, expiration date and cvc
+
+4) Input name in Cyrilic
+
+5) Click Continue
+
+Expected result:
+
+""Cyrilic is not available"" error message
+
+Actual result:
+
+You proceed to the next step
+
+
+","0"
+"G12-160","group1.2","Star","Checkout: Shipping method - shipping prices are not shown","alex.kalita1991","20 Oct 2022","20 Oct 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,,,"No environment","No qase tc # (only for bug)","STR:
+
+1) Choose valid shipping address
+
+2) Click ""Continue"" to shipping method
+
+Expected result:
+
+Shipping prices are shown correctly
+
+Actual result:
+
+All shipping prices are 0
+
+![](chrome_uKMUVP1AeK.png){width=70%}","0"
+"G12-159","group1.2","Star","Shopping cart: Setting product quantity to 0 removes product from cart","alex.kalita1991","20 Oct 2022","20 Oct 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,,,"No environment","No qase tc # (only for bug)","STR:
+
+1) Set product quantity to 0
+
+2) Press Enter
+
+Expected result:
+
+""Quantity cannot be 0"" message or quantity is reseted to previous amount
+
+Actual result:
+
+Product is removed from shopping cart
+
+
+","0"
+"G12-158","group1.2","Star","Shopping cart: Clicking ""Estimate shipping"" doesnt show shipping prices","alex.kalita1991","20 Oct 2022","20 Oct 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,,,"No environment","No qase tc # (only for bug)","STR:
+
+1. Choose valid shipping address
+
+2. Click ""Estimate shipping""
+
+Expected result:
+
+Shipping prices are shown correctly
+
+Actual result:
+
+All prices are 0
+
+![](chrome_TDcFDGu6t01.png){width=70%}","0"
+"G12-50","group1.2","Star","YouTrack: impossible to click New card when column is full","alex.kalita1991","22 Sep 2022","22 Sep 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,,,"No environment","No qase tc # (only for bug)","STR:
+
+1) Fill 1st column with tasks
+
+2) Click at + New Card bellow 1st column
+
+Expected result:
+
+\+New card menu is opened
+
+Result:
+
+Impossible to click at +New card![](chrome_yaki9x6fzE.mp4)","0"
+"G12-42","group1.2","Star","Testing Documentation Aleksandr Kalita","alex.kalita1991","22 Sep 2022","22 Sep 2022",,"Normal","Task","Open","Unassigned","Нет версии исправления",,,,"No environment","No qase tc # (only for bug)",,"0"
+"G12-49","group1.2","Star","Add customer GUI: Cyrillic is recognized as numbers in Firstname and Lastname","alex.kalita1991","22 Sep 2022","22 Sep 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,,,"No environment","No qase tc # (only for bug)","STR:
+
+1) Open Add customer
+
+2) Input any latim character in Firstname and Lastname
+
+Expected result: 
+
+""Cyrillic are not allowed"" error message
+
+Result: 
+
+""Numbers are not allow"" error message![](chrome_rj0LDg4ec2.png){width=70%}","0"
+"G12-47","group1.2","Star","Add customer GUI: Missing word ""number"" in error message","alex.kalita1991","22 Sep 2022","22 Sep 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,,,"No environment","No qase tc # (only for bug)","STR:
+
+1)Open Add cutstomer page
+
+2) Click on ""Mobile number"" field and leave it empty
+
+3)Click at any other empty space
+
+Expected result:
+
+""Mobile number must not be blank""
+
+Result:![](BTnh3dhI5I.png){width=70%}","0"
+"G12-48","group1.2","Star","Add customer: ""Reset"" button doesn't clear error messages","alex.kalita1991","22 Sep 2022","22 Sep 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,,,"No environment","No qase tc # (only for bug)","STR:
+
+1) Open Add Customer page
+
+2) Input any invalid symbols in Firstname field
+
+3) Leave other fields empty
+
+4 )Click Reset
+
+Expected result:
+
+All data and erros messages are reseted
+
+Result:
+
+Error messages doesn't reset![](chrome_TSmyOLe56y.mp4)","0"
+"G12-51","group1.2","Star","Add customer GUI: incorrect error message - blank firstname and lastname","alex.kalita1991","22 Sep 2022","22 Sep 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,,,"No environment","No qase tc # (only for bug)","STR:
+
+1) Go to Add customer page
+
+2) Click at Firstname and Lastname fields
+
+3) Leave it empty
+
+Expexted result:
+
+""Customer firstname must not be blank"" error message
+
+""Customer lastname must not be blank"" error message
+
+Result:
+
+""Customer name must not be blank"" error message in both fields
+
+
+
+![](chrome_aWE5VpiEmC.png){width=70%}","0"
+"G12-46","group1.2","Star","Add customer GUI: upper case letters in Firstname and Lastname fields","alex.kalita1991","22 Sep 2022","22 Sep 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,,,"No environment","No qase tc # (only for bug)","STR:
+
+Go to ""Add customer"" button
+
+Expected result:
+
+""Firstname"", ""Lastname"" or ""First name"", ""Last name""
+
+Result:
+
+![](chrome_bdYPJ7wXn9.png){width=70%}
+
+
+","0"
+"G12-45","group1.2","Star","Add customer: Clicking logo doesnt refresh page","alex.kalita1991","22 Sep 2022","22 Sep 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,,,"No environment","No qase tc # (only for bug)","STR:
+
+1) Click ""Add customer"" on the main page
+
+2) Click logo button
+
+Expected result:
+
+Add customer is refreshed
+
+Result:
+
+The main page is opened![](chrome_2ejmrJRJ18.mp4)","0"
+"G12-44","group1.2","Star","Main page: 4 active buttons instead of 5","alex.kalita1991","22 Sep 2022","22 Sep 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,,,"No environment","No qase tc # (only for bug)","STR:
+
+Open <https://demo.guru99.com/telecom/index.html>
+
+Expected result: 
+
+5 active buttons listed in requrements, including ""Delete Customer""
+
+Result: No ""Delete Customer"" button
+
+![](chrome_ASogLG4kJC.png){width=70%}","0"
+"G12-43","group1.2","Star","Main page: Side hamburger menu doesn't close after clicking free space in lower half of the screen in vertical mode","alex.kalita1991","22 Sep 2022","22 Sep 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,,,"No environment","No qase tc # (only for bug)","STR:
+
+1. Open side menu
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Click at any free space under phone image in vertical mode
+
+Result:
+
+![](chrome_nwb7tnFcVX.mp4)
+
+Expected result: Side menu is closed after clicking any free space according to requirements","0"
